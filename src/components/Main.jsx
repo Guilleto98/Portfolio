@@ -4,25 +4,30 @@ const Main = () => {
   return (
     <>
       <main className="container mx-auto md:grid md:grid-cols-2 mt-10 gap-10 p-5 items-center">
-        <div>
-          <p className="p-10 leading-10 font-bold text-xl">
-            I am a dedicated front-end developer with
-            <span class="relative bg-gray-800 p-2 rounded text-xl text-white">
-              experience in React
-            </span>
-            . I am passionate about creating beautiful and functional web
-            applications. I graduated from Hack Academy's Coding Bootcamp, where
-            I invested over 600 hours learning the most prominent programming
-            languages. As a professional,
-            <span class="relative bg-gray-800 p-2 rounded text-xl text-white">
-              I am committed to delivering high-quality work,
-            </span>{" "}
+        <div className="flex flex-col items-start">
+          <h1 className="pb-10 leading-relaxed item-start font-bold text-5xl">
+            Hi! I'm Guille{" "}
+            <span className="text-blue-500">full-stack  </span>
+            developer focused in
+            <span className="text-blue-500"> React.js </span>
+            and
+            <span className="text-blue-500"> Node.js</span>
+          </h1>
+          <p className="text-start font-bold text-gray-500 ">
+            As a professional, I am committed to delivering high-quality work,
             and I have developed strong technical skills. I am also a team
             player who collaborates well with colleagues and other departments
-            to achieve common objectives. I am always looking to improve my
-            skills and stay up-to-date with the latest industry trends, and I am
-            open to new challenges that can help me grow as a professional.
+            to achieve common objectives.
           </p>
+
+          <div className="flex justify-center gap-3">
+            <button className="px-8 py-3 mt-10 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition duration-300 ease-in-out">
+              More about me
+            </button>
+            <button className="px-8 py-3 mt-10 bg-gray-500 hover:bg-gray-400 text-white font-semibold rounded-lg transition duration-300 ease-in-out">
+              My projects
+            </button>
+          </div>
         </div>
         <div>
           <img src="../public/img/developer.jpg" alt="" />
