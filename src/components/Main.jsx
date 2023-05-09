@@ -15,7 +15,7 @@ const Main = () => {
   }
   return (
     <>
-      <main className="container mx-auto md:grid md:grid-cols-2 mt-10 gap-10 p-5 pt-52 md:pt-10 items-center">
+      <main className="container mx-auto md:grid md:grid-cols-2 mt-10 gap-10 p-5 items-center">
         <motion.div
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
