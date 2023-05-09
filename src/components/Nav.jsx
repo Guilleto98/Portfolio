@@ -24,12 +24,6 @@ function Navbar() {
             className="text-white hover:text-white px-3 hover:bg-gray-400 py-2 rounded-md text-md font-bold"
             href="/contact"
           >
-            Expirence
-          </a>
-          <a
-            className="text-white hover:text-white px-3 hover:bg-gray-400 py-2 rounded-md text-md font-bold"
-            href="/contact"
-          >
             Contact
           </a>
         </div>

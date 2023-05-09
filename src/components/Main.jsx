@@ -4,10 +4,19 @@ const Main = () => {
   return (
     <>
       <main className="container mx-auto md:grid md:grid-cols-2 mt-10 gap-10 p-5 items-center">
-        <div className="flex flex-col items-start">
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            delay: 0.2,
+            type: "spring",
+          }}
+          className="flex flex-col items-start"
+        >
           <h1 className="pb-10 leading-relaxed item-start font-bold text-5xl">
-            Hi! I'm Guille{" "}
-            <span className="text-blue-500">full-stack  </span>
+            Hi! I'm Guille <span className="text-blue-500">full-stack </span>
             developer focused in
             <span className="text-blue-500"> React.js </span>
             and
@@ -24,11 +33,11 @@ const Main = () => {
             <button className="px-8 py-3 mt-10 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition duration-300 ease-in-out">
               More about me
             </button>
-            <button className="px-8 py-3 mt-10 bg-gray-500 hover:bg-gray-400 text-white font-semibold rounded-lg transition duration-300 ease-in-out">
+            <button className="px-8 py-3 mt-10 bg-transparent hover:bg-gray-100 border-2 font-semibold rounded-lg transition duration-300 ease-in-out">
               My projects
             </button>
           </div>
-        </div>
+        </motion.div>
         <div>
           <img src="../public/img/developer.jpg" alt="" />
         </div>
