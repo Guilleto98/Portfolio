@@ -4,11 +4,12 @@ import CardProject from "../components/CardProject";
 const ShowProjects = () => {
   return (
     <div
-      className="bg-cover bg-center bg-no-repeat bg-fixed pb-48"
+      className="bg-cover bg-center bg-no-repeat bg-fixed pb-48 pt-10"
       style={{
         backgroundImage:
           "linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,1) 100%), url('/img/fondo.jpg')",
       }}
+      name="project-section"
     >
       <div className="container p-10 mx-auto max-w-4xl">
         <h2 className="text-4xl font-bold text-center text-blue-600 pb-10">

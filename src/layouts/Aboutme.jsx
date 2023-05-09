@@ -6,7 +6,7 @@ import "./Aboutme.css";
 const Aboutme = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center justify-center h-auto w-full">
+      <div className="flex flex-col md:flex-row items-center justify-center h-auto w-full" name="aboutme-section">
         <div className="w-full md:w-1/2 h-1/2 md:h-screen ">
           <img
             src={me}

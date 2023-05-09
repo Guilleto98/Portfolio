@@ -1,9 +1,21 @@
 import { motion } from "framer-motion";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Main = () => {
+  function scrollToTop() {
+    scroll.scrollToTop();
+  }
+
+  function scrollToAboutMe() {
+    scroll.scrollTo("#aboutme-section", {
+      duration: 1000,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  }
   return (
     <>
-      <main className="container mx-auto md:grid md:grid-cols-2 mt-10 gap-10 p-5 items-center">
+      <main className="container mx-auto md:grid md:grid-cols-2 mt-10 gap-10 p-5 pt-52 md:pt-10 items-center">
         <motion.div
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
@@ -30,12 +42,16 @@ const Main = () => {
           </p>
 
           <div className="flex justify-center gap-3">
-            <button className="px-8 py-3 mt-10 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition duration-300 ease-in-out">
-              More about me
-            </button>
-            <button className="px-8 py-3 mt-10 bg-transparent hover:bg-gray-100 border-2 font-semibold rounded-lg transition duration-300 ease-in-out">
-              My projects
-            </button>
+            <Link to="aboutme-section" spy={true} smooth={true} duration={500}>
+              <button className="px-8 py-3 mt-10 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition duration-300 ease-in-out">
+                More about me
+              </button>
+            </Link>
+            <Link to="project-section" spy={true} smooth={true} duration={500}>
+              <button className="px-8 py-3 mt-10 bg-transparent hover:bg-gray-100 border-2 font-semibold rounded-lg transition duration-300 ease-in-out">
+                My projects
+              </button>
+            </Link>
           </div>
         </motion.div>
         <div className="py-10">
