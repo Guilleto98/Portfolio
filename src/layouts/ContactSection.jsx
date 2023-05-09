@@ -3,7 +3,10 @@ import { FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function ContactSection() {
   return (
-    <section className="h-screen w-full bg-gray-100 flex flex-col md:flex-row">
+    <section
+      className="h-screen w-full bg-gray-100 flex flex-col md:flex-row"
+      name="contact-section"
+    >
       <div className="md:w-1/2 bg-gray-100 text-gray-700 flex items-center justify-center">
         <p className="text-4xl p-12 font-serif leading-relaxed uppercase text-center font-bold">
           Darle oportunidades a alguien es como regalarle una llave a un genio,

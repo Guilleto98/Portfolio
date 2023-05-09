@@ -13,7 +13,7 @@ function App() {
       <ShowProjects id="project-section"/>
       <Aboutme id="aboutme-section" />
       <Aboutme2 />
-      <ContactSection/>
+      <ContactSection id="contact-section"/>
     </>
   );
 }

@@ -42,12 +42,16 @@ function Navbar() {
           >
             Projects
           </Link>
-          <a
+          <Link
             className="text-white hover:text-white px-3 hover:bg-gray-400 py-2 rounded-md text-md font-bold"
             href="/contact"
+            to="contact-section"
+            spy={true}
+            smooth={true}
+            duration={500}
           >
             Contact
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
