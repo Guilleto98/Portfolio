@@ -1,5 +1,5 @@
 import Nav from "./components/Nav";
-import Main from "./components/Main";
+import Main from "./layouts/Main";
 import ShowProjects from "./layouts/ShowProjects";
 import Aboutme from "./layouts/Aboutme";
 import Aboutme2 from "./layouts/Aboutme2";
