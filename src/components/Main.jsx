@@ -39,7 +39,7 @@ const Main = () => {
           </div>
         </motion.div>
         <div className="py-10">
-          <img src="../public/img/developer.jpg" alt="" />
+          <img src="/img/developer.jpg" alt="" />
         </div>
       </main>
     </>
