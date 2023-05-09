@@ -17,7 +17,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="bg-gray-800 p-4 fixed w-full top-0">
+    <nav className="bg-gray-800 p-4">
       <div className="f-col md:flex items-center justify-between">
         <div className="text-white mb-5 mt-5 md:m-0 text-center font-bold text-lg">
           My Website
