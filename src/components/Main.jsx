@@ -38,7 +38,7 @@ const Main = () => {
             </button>
           </div>
         </motion.div>
-        <div>
+        <div className="py-10">
           <img src="../public/img/developer.jpg" alt="" />
         </div>
       </main>
