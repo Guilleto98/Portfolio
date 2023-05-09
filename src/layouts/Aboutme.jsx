@@ -6,15 +6,15 @@ import "./Aboutme.css";
 const Aboutme = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center justify-center h-screen w-full">
-        <div className="w-full md:w-1/2 h-1/2 md:h-full bg">
+      <div className="flex flex-col md:flex-row items-center justify-center h-auto w-full">
+        <div className="w-full md:w-1/2 h-1/2 md:h-screen ">
           <img
             src={me}
             alt=""
             className="w-full h-full object-cover md:h-full"
           />
         </div>
-        <div className="w-full h-full md:w-1/2 bg-gray-700 flex flex-col justify-center p-10">
+        <div className="w-full h-full md:w-1/2 md:h-screen bg-gray-700 flex flex-col justify-center p-10">
           <div className="div-p p-5 rounded-lg md:p-5">
             <p className="p-Aboutme text-lg lg:text-2xl font-serif text-center md:text-left">
               I am a dedicated front-end developer with experience in React. I
