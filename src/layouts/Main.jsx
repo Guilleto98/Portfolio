@@ -55,7 +55,13 @@ const Main = () => {
           </div>
         </motion.div>
         <div className="py-10">
-          <img src="/img/developer.jpg" alt="" />
+          <motion.img
+            src="/img/developer.jpg"
+            alt=""
+            className=""
+            animate={{ y: ["-10px", "10px", "-10px"], 
+                 transition: { duration: 2, repeat: Infinity }}}
+          />
         </div>
       </main>
     </>

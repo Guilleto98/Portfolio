@@ -13,7 +13,7 @@ function ContactSection() {
           nunca sabes qué puertas abrirá ni qué maravillas creará.
         </p>
       </div>
-      <div className="md:w-1/2 bg-gray-100 flex flex-col justify-center p-32 md:p-10 lg:p-32 md:border-l-2 border-gray-700 my-20">
+      <div className="md:w-1/2 bg-gray-100 border-t-2 flex flex-col justify-center px-20 md:p-10 lg:p-32 md:border-l-2 border-gray-700">
         <div className="text-start m-5">
           <h2 className="text-4xl font-serif font-bold">PHONE</h2>
           <p className="text-gray-800 text-xl mt-2">+598 99155644</p>
