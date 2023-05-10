@@ -9,11 +9,12 @@ function ContactSection() {
     >
       <div className="md:w-1/2 bg-gray-100 text-gray-700 flex items-center justify-center">
         <p className="text-4xl p-12 font-serif leading-relaxed uppercase text-center font-bold">
-          Darle oportunidades a alguien es como regalarle una llave a un genio,
-          nunca sabes qué puertas abrirá ni qué maravillas creará.
+          Giving someone opportunities is like giving a key to a genius, you
+          never know which doors they will open or what wonders they will
+          create
         </p>
       </div>
-      <div className="md:w-1/2 bg-gray-100 border-t-2 flex flex-col justify-center px-20 md:p-10 lg:p-32 md:border-l-2 border-gray-700">
+      <div className="md:w-1/2 bg-gray-100 border-t-2 flex flex-col justify-center px-20 md:border-t-0 md:p-10 lg:p-32 md:border-l-2 border-gray-700">
         <div className="text-start m-5">
           <h2 className="text-4xl font-serif font-bold">PHONE</h2>
           <p className="text-gray-800 text-xl mt-2">+598 99155644</p>
