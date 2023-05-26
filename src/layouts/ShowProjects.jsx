@@ -1,4 +1,4 @@
-import React from "react";
+
 import CardProject from "../components/CardProject";
 
 const ShowProjects = () => {
@@ -56,6 +56,11 @@ const ShowProjects = () => {
         <CardProject
           imageSrc="/img/project-6.jpeg"
           title="City Weather"
+          href="https://buscadordeclimagtorres.netlify.app/"
+        />
+        <CardProject
+          imageSrc="/img/project-7.jpeg"
+          title="Elisur Web Page"
           href="https://buscadordeclimagtorres.netlify.app/"
         />
       </div>
