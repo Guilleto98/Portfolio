@@ -60,8 +60,8 @@ const ShowProjects = () => {
         />
         <CardProject
           imageSrc="/img/project-7.jpeg"
-          title="Elisur Web Page"
-          href="https://buscadordeclimagtorres.netlify.app/"
+          title="Elisur Web Page in progress"
+          href="https://elisur-web-page-35ek.vercel.app/#"
         />
       </div>
     </div>
