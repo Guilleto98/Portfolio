@@ -63,6 +63,11 @@ const ShowProjects = () => {
           title="Elisur Web Page in progress"
           href="https://www.elisur.uy/"
         />
+        <CardProject
+          imageSrc="/img/project-8.jpeg"
+          title="PWA Palco.uy"
+          href="https://placos-uy.vercel.app/"
+        />
       </div>
     </div>
   );
