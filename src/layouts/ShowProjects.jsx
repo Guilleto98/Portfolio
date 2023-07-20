@@ -65,7 +65,7 @@ const ShowProjects = () => {
         />
         <CardProject
           imageSrc="/img/project-8.jpeg"
-          title="PWA Palco.uy"
+          title="PWA Palco.uy (solo uso mobile)"
           href="https://placos-uy.vercel.app/"
         />
       </div>
