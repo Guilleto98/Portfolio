@@ -60,7 +60,7 @@ const ShowProjects = () => {
         />
         <CardProject
           imageSrc="/img/project-7.jpeg"
-          title="Elisur Web Page in progress"
+          title="Elisur Web Page"
           href="https://www.elisur.uy/"
         />
         <CardProject
